@@ -195,5 +195,5 @@ cython_debug/
 .cursorindexingignore
 
 # Other files
-data/
+data/*
 !data/.gitkeep
