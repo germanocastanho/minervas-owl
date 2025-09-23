@@ -82,7 +82,7 @@ def chat_function(query, chat_history):
     chat_history.append(response.content)
 
     for i in range(len(response.content)):
-        time.sleep(0.03)
+        time.sleep(0.003)
         yield response.content[: i + 1]
 
 
